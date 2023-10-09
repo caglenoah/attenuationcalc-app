@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import usePlacesAutocomplete, {
-    get Geocode,
+    getGeocode,
     getLatLng,
     //getElevation
 } from "use-places-autocomplete";
