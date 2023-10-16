@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import usePlacesAutocomplete, {
-    getGeocode,
+    getgitGeocode,
     getLatLng,
     //getElevation
 } from "use-places-autocomplete";
@@ -81,3 +81,8 @@ const PlacesAutocomplete = ({ setSelected }) => {
          </ComboboxPopover>
     </Combobox>
 }
+
+
+// resources
+// map initial component https://www.youtube.com/watch?v=9e-5QHpadi0&t=1s
+// map autofill https://www.youtube.com/watch?v=BL2XVTqz9Ek&t=6s
